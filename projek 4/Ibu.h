@@ -4,13 +4,14 @@
 #include<iostream>
 #include<vector>
 #include <string>
+#include "Anak.h"
 
 
 using namespace std;
 class ibu {
 public:
 	string nama;
-	vector<Anak*> daftar_anak;
+	vector<anak*> daftar_anak;
 
 	ibu(string pNama) :nama(pNama) {
 		cout << "ibu\"" << nama << "\"ada\n";
@@ -18,11 +19,11 @@ public:
 	~ibu() {
 		cout << "ibu\"" << nama<<"\"tidak ada";
 	}
-	void tambahAnak(Anak*);
+	void tambahAnak(anak*);
 	void cetakAnak();
 
 };
-void ibu::tambahAnak(Anak* pAnak) {
+void ibu::tambahAnak(anak* pAnak) {
 	daftar_anak.push_back(pAnak);
 }
 void ibu::cetakAnak() {
