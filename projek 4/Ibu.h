@@ -13,8 +13,9 @@ public:
 
 	ibu(string pNama) :nama(pNama) {
 		cout << "ibu\"" << nama << "\"ada\n";
-
 	}
-
+	~ibu() {
+		cout << "ibu\"" << nama<<"\"tidak ada";
+	}
 
 };
