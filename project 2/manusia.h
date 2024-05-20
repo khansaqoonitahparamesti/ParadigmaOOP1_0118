@@ -10,5 +10,9 @@ public:
 	string name;
 	Jantung varjantung;
 
+	manusia(string pName)
+		:name(pName) {
+		cout << name << "hidup\n";
 
+	}
 };
