@@ -1,5 +1,5 @@
 #pragma once
-#ifndef JANTUNH_H
+#ifndef JANTUNG_H
 #define JANTUNG_H
 
 #include<iostream>
