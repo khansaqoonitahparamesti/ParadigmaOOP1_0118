@@ -11,5 +11,8 @@ public:
 	jantung() {
 		cout << "jantungd dhidupkan\n";
 	}
+	~jantung() {
+		cout << "jantung dimatikan\n";
+	}
 };
-
+#endif
