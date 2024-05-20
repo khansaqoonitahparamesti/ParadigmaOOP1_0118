@@ -13,5 +13,8 @@ public:
 		cout << "orang dibuat\n" << endl;
 
 	 }
+	~orang() {
+		cout << "orang di hapu\n" << endl;
+	}
 
 };
