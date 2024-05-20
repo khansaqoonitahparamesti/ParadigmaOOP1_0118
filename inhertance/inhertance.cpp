@@ -6,5 +6,7 @@
 using namespace std;
 
 class orang{
+public:
+	
 
 };
