@@ -4,3 +4,6 @@
 
 #include<iostream>
 
+class manusia {
+
+};
