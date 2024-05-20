@@ -5,5 +5,5 @@
 #include<iostream>
 
 class manusia {
-
+public:
 };
