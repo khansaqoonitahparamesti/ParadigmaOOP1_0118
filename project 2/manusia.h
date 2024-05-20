@@ -3,12 +3,13 @@
 #define MANUSIA_H
 
 #include<iostream>
+#include "Jantung.h"
 using namespace std;
 
 class manusia {
 public:
 	string name;
-	Jantung varjantung;
+	jantung varJantung;
 
 	manusia(string pName)
 		:name(pName) {
